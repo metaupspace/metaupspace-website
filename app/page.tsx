@@ -5,6 +5,7 @@ import MainSection from "@/components/MainSection";
 import { MarqueeDemo } from "@/components/Marquee";
 import ProcessFlow from "@/components/ProcessFlow";
 import StaffingType from "@/components/StaffingType";
+import Development from '@/components/Development'
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
@@ -26,7 +27,8 @@ export default function Home() {
       <StaffingType />
       <MarqueeDemo />
       <ProcessFlow />
-      <div className="h-screen bg-white"></div>
+      <Development/>
+     
     </main>
   );
 }
