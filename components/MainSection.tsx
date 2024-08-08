@@ -18,7 +18,7 @@ const MainSection = () => {
           "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]"
         )}
       />
-      <div className="flex items-center justify-between">
+      <div className="flex justify-between">
         {/* Right side: Text content */}
         <div className="w-1/2 ml-10">
           <h1 className="text-5xl font-bold">
