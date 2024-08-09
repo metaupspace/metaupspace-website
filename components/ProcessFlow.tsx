@@ -3,40 +3,48 @@ import StepCard from "./StepCard";
 
 const steps = [
   {
-    title: "Step 1",
+    num: "Step 1",
+    title: "Resume Shortlisting",
     description:
-      "We staff professionals on a short-term contract and will help you find candidates fit for your hiring needs.",
+      "Review and select resumes based on the job requirements and candidate qualifications to create a pool of potential candidates.",
     key: 1,
   },
   {
-    title: "Step 2",
+    num: "Step 2",
+    title: "Online Assessment",
     description:
-      "We staff professionals on a short-term contract and will help you find candidates fit for your hiring needs.",
+      "Conduct initial evaluations through online tests to gauge candidates’ technical skills and aptitude relevant to the role.",
     key: 2,
   },
   {
-    title: "Step 3",
+    num: "Step 3",
+    title: "Technical Round",
     description:
-      "We staff professionals on a short-term contract and will help you find candidates fit for your hiring needs.",
+      "Assess candidates' technical expertise through in-depth interviews or coding challenges to ensure they meet the technical requirements of the position.",
     key: 3,
   },
   {
-    title: "Step 4",
+    num: "Step 4",
+    title: "HR/Behavioral Round",
     description:
-      "We staff professionals on a short-term contract and will help you find candidates fit for your hiring needs.",
+      "Evaluate candidates’ soft skills, cultural fit, and overall suitability for the company through interviews focused on behavioral and HR aspects.",
     key: 4,
   },
   {
-    title: "Step 5",
+    num: "Step 5",
+    title: "On board candidates",
     description:
-      "We staff professionals on a short-term contract and will help you find candidates fit for your hiring needs.",
+      "Monitor satisfaction of both the client and the placed candidate to ensure a successful match and address any issues that arise.",
     key: 5,
   },
 ];
 
 const ProcessFlow = () => {
   return (
-    <section className="py-20 pt-40 bg-gradient-to-b from-black via-black to-white text-gray-100">
+    <section
+      id="process"
+      className="py-20 pt-40 bg-gradient-to-b from-black via-black to-white text-gray-100"
+    >
       <div className="container mx-auto relative">
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold">Process Flow</h1>

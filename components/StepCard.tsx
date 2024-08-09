@@ -6,7 +6,7 @@ const StepCard = ({
   step,
   index,
 }: {
-  step: { title: string; description: string };
+  step: { num: string; title: string; description: string };
   index: number;
 }) => {
   const opacity = 1 - index * 0.2;
@@ -23,11 +23,11 @@ const StepCard = ({
     >
       <div className="w-full">
         <h2 className={`text-xl font-bold pb-5 ${index > 2 ? "invert" : ""}`}>
-          {step.title}
+          {step.num}
         </h2>
         <img src="../assets/rec.png" className={`${isEven ? "" : "pl-20"}`} />
         <h3 className={`text-lg font-bold mt-5 ${index > 2 ? "invert" : ""}`}>
-          CONTRACT
+          {step.title}
         </h3>
         <p className={`mt-2 ${index > 2 ? "invert" : ""} `}>
           {step.description}

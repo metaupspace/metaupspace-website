@@ -8,7 +8,10 @@ import { reviews } from "@/lib/data";
 
 const MainSection = () => {
   return (
-    <section className="relative py-20 pl-20 bg-black text-white">
+    <section
+      id="main-section"
+      className="relative py-20 pl-20 bg-black text-white"
+    >
       <GridPattern
         width={20}
         height={20}
@@ -18,9 +21,9 @@ const MainSection = () => {
           "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]"
         )}
       />
-      <div className="flex justify-between">
+      <div className="md:flex md:flex-row flex-col justify-between">
         {/* Right side: Text content */}
-        <div className="w-1/2 ml-10">
+        <div className="w-full md:w-1/2 md:ml-10">
           <h1 className="text-5xl font-bold">
             Where <span className="text-gray-600"> Innovation</span>
           </h1>
@@ -54,7 +57,7 @@ const MainSection = () => {
           </div>
         </div>
         {/* Left side: 3D model */}
-        <div className="w-1/2 h-full pr-10">
+        <div className="w-full md:w-4/5	h-full md:pr-10">
           <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" />
         </div>
       </div>
