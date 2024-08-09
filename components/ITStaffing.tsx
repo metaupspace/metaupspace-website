@@ -3,24 +3,25 @@ import GridPattern from "./magicui/grid-pattern";
 
 const ITStaffing = () => {
   return (
-    <section className="py-20 px-30 bg-black text-white">
+    <section id="it-staffing" className="py-20 px-30 bg-black text-white">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center">IT Staffing</h2>
         <p className="text-center  text-lg font-semibold  mt-10">
           Hiring Made Easy
         </p>
+        <img src="../assets/steps.png" className="px-10 pl-20  mt-20" />
 
-        <div className="relative flex justify-between items-center mt-20 space-x-8 px-20">
+        <div className="relative md:flex md:flex-row flex-col justify-between items-center mt-5 md:space-x-8 md:px-20 space-y-2">
           {/* Horizontal Line */}
 
           {/* Step 1 */}
           <div className="relative z-10 text-center flex flex-col items-center">
             <div className="relative flex items-center justify-center mb-6">
-              <div className="absolute w-16 h-16 bg-black z-10"></div>{" "}
+              <div className="absolute w-16 h-16 z-10"></div>{" "}
               {/* Circle Background */}
-              <div className="relative w-10 h-10 rounded-full bg-black border border-white flex items-center justify-center z-20">
+              {/* <div className="relative w-10 h-10 rounded-full bg-black border border-white flex items-center justify-center z-20">
                 <span className="text-xl font-bold">1</span>
-              </div>
+              </div> */}
             </div>
             <h3 className="text-md font-bold">
               Talk to One of our Industry Experts
@@ -34,11 +35,11 @@ const ITStaffing = () => {
           {/* Step 2 */}
           <div className="relative z-10 text-center flex flex-col items-center">
             <div className="relative flex items-center justify-center mb-6">
-              <div className="absolute w-16 h-16 bg-black z-10"></div>{" "}
+              <div className="absolute w-16 h-16 z-10"></div>{" "}
               {/* Circle Background */}
-              <div className="relative w-10 h-10 rounded-full bg-black border border-white flex items-center justify-center z-20">
+              {/* <div className="relative w-10 h-10 rounded-full bg-black border border-white flex items-center justify-center z-20">
                 <span className="text-xl font-bold">2</span>
-              </div>
+              </div>*/}
             </div>
             <h3 className="text-md font-bold">
               Work With Hand-Selected Talent
@@ -52,11 +53,11 @@ const ITStaffing = () => {
           {/* Step 3 */}
           <div className="relative z-10 text-center flex flex-col items-center">
             <div className="relative flex items-center justify-center mb-6">
-              <div className="absolute w-16 h-16 bg-black z-10"></div>{" "}
+              <div className="absolute w-16 h-16 z-10"></div>{" "}
               {/* Circle Background */}
-              <div className="relative w-10 h-10 rounded-full bg-black border border-white flex items-center justify-center z-20">
+              {/* <div className="relative w-10 h-10 rounded-full bg-black border border-white flex items-center justify-center z-20">
                 <span className="text-xl font-bold">3</span>
-              </div>
+              </div> */}
             </div>
             <h3 className="text-md font-bold">The Right Fit Guaranteed</h3>
             <p className="mt-5 text-wrap text-sm text-gray-300 text-justify px-4">
