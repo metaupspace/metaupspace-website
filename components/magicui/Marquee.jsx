@@ -1,7 +1,5 @@
-import { cn } from "../lib/utils";
- 
+import { cn } from "../../lib/utils";
 
- 
 export default function Marquee({
   className,
   reverse,
@@ -15,7 +13,7 @@ export default function Marquee({
     <div
       {...props}
       className={cn(
-        "group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]",
+        "relative group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]",
         {
           "flex-row": !vertical,
           "flex-col": vertical,
