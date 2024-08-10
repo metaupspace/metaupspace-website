@@ -1,11 +1,8 @@
-'use client'
-
 import React, { useEffect, useState } from 'react'
 import { cn } from "../lib/utils";
 import Marquee from "./magicui/Marquee";
 import application1_2 from '../public/assets/application1.1.png'
 import Image from 'next/image';
-import { handleOpenModal, useModal } from './sections/Projecthighlight';
 
 function Projectsmarquee() {
   const { isModalOpen, openModal, closeModal } = useModal();
@@ -21,6 +18,23 @@ export default Projectsmarquee;
 
 
 
+export const useModal = () => {
+  const [isModalOpen, setIsModalOpen] = useState(true);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  useEffect(() => {
+    console.log('Modal state changed:', isModalOpen);
+  }, [isModalOpen]);
+
+  return { isModalOpen, openModal, closeModal };
+};
 
 const reviews = [
     {
@@ -40,9 +54,8 @@ const reviews = [
   const firstRow = reviews.slice(0, reviews.length / 2);
   
   const ReviewCard = ({ img, name, username, body }) => {
- 
-
-
+  
+    const { isModalOpen, openModal, closeModal } = useModal();
   
     // useEffect(() => {
     //   if (isModalOpen) {
@@ -80,9 +93,9 @@ const reviews = [
           <div className="p-6 pt-0 z">
             <button
             
-              className="align-middle -50 select-none font-sans font-bold text-center uppercase transition-all "
+              className="align-middle -50 select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
               type="button"
-              onClick={handleOpenModal}
+              onClick={openModal}
             >
               Read More
             </button>
