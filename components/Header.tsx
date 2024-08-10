@@ -47,10 +47,10 @@ const Header = () => {
             <Link href="#it-staffing">IT Staffing</Link>
           </li>
           <li className="text-gray-600">
-            <Link href="#types-staffing">Development</Link>
+            <Link href="#development">Development</Link>
           </li>
           <li className="text-gray-600">
-            <Link href="#process">Team</Link>
+            <Link href="#team">Team</Link>
           </li>
         </ul>
       </nav>

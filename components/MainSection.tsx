@@ -10,7 +10,7 @@ const MainSection = () => {
   return (
     <section
       id="main-section"
-      className="relative py-20 pl-20 bg-black text-white"
+      className="relative py-20 px-5 md:pl-20 bg-black text-white"
     >
       <GridPattern
         width={20}
@@ -42,7 +42,7 @@ const MainSection = () => {
               Start Now
             </button>
           </div>
-          <div className="relative bg-black flex h-[300px] w-2/3 flex-col items-center justify-center overflow-hidden rounded-lg py-30">
+          <div className="relative bg-black flex h-[300px] w-full md:w-2/3 flex-col items-center justify-center overflow-hidden rounded-lg py-30">
             <div className="flex space-x-4 mt-2">
               <Marquee
                 pauseOnHover
@@ -57,7 +57,7 @@ const MainSection = () => {
           </div>
         </div>
         {/* Left side: 3D model */}
-        <div className="w-full hidden md:flex md:w-4/5	h-full md:pr-10">
+        <div className="w-full hidden md:flex h-full md:pr-10">
           <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" />
         </div>
       </div>
