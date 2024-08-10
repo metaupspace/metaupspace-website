@@ -14,17 +14,31 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-black text-white p-5 flex justify-between items-center">
-      <div className="logo flex items-center space-x-2">
-        <img
-          src="../assets/logo.png"
-          width={40}
-          height={40}
-          alt="MetaUpSpace Logo"
-        />
-        <h1 className="text-lg font-semibold">MetaUpSpace</h1>
+    <header className="bg-black text-white p-5 flex flex-col md:flex-row justify-between items-center">
+      <div className="flex justify-between space-x-5">
+        <div className="logo flex items-center space-x-2">
+          <img
+            src="../assets/logo.png"
+            width={40}
+            height={40}
+            alt="MetaUpSpace Logo"
+          />
+          <h1 className="text-lg font-semibold">MetaUpSpace</h1>
+        </div>
+        <div className="md:hidden">
+          <button
+            className="text-white focus:outline-none"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            ☰
+          </button>
+        </div>
       </div>
-      <nav className={`md:flex ${menuOpen ? "block" : "hidden"} space-x-4`}>
+      <nav
+        className={`md:flex ${
+          menuOpen ? "block" : "hidden"
+        } mt-8 md:mt-0 space-x-4`}
+      >
         <ul className="flex flex-col md:flex-row md:space-x-4">
           <li>
             <Link href="#main-section">Home</Link>
@@ -45,25 +59,20 @@ const Header = () => {
         <a href="">
           <FaPhoneAlt color="#454343" />
         </a>
-        <a href="https://www.linkedin.com/company/metaupspace/">
+        <a href="https://www.linkedin.com/company/metaupspace/" target="_blank">
           <FaLinkedin color="#454343" />
         </a>
-        <a href="https://instagram.com/metaupspace?igshid=MjljNjAzYmU=">
+        <a
+          href="https://instagram.com/metaupspace?igshid=MjljNjAzYmU="
+          target="_blank"
+        >
           <FaInstagramSquare color="#454343" />
         </a>
-        <a href="https://twitter.com/metaupspace">
+        <a href="https://twitter.com/metaupspace" target="_blank">
           <FaTwitterSquare color="#454343" />
         </a>
       </div>
       {/* Mobile Menu Button */}
-      <div className="md:hidden">
-        <button
-          className="text-white focus:outline-none"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          ☰
-        </button>
-      </div>
     </header>
   );
 };

@@ -57,7 +57,7 @@ const MainSection = () => {
           </div>
         </div>
         {/* Left side: 3D model */}
-        <div className="w-full md:w-4/5	h-full md:pr-10">
+        <div className="w-full hidden md:flex md:w-4/5	h-full md:pr-10">
           <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" />
         </div>
       </div>

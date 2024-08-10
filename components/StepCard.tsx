@@ -19,13 +19,16 @@ const StepCard = ({
       transition={{ duration: 0.5, delay: index * 0.2 }}
       className={`flex items-centerjustify-${
         isEven ? "end" : "start"
-      } py-10 px-4 rounded-lg mb-8  text-gray-${100 + index * 300} w-1/2`}
+      } py-10 px-4 rounded-lg mb-8  text-white w-1/2`}
     >
       <div className="w-full">
         <h2 className={`text-xl font-bold pb-5 ${index > 2 ? "invert" : ""}`}>
           {step.num}
         </h2>
-        <img src="../assets/rec.png" className={`${isEven ? "" : "pl-20"}`} />
+        <img
+          src="../assets/rec.png"
+          className={`pl-0 ${isEven ? "" : "md:pl-20"}`}
+        />
         <h3 className={`text-lg font-bold mt-5 ${index > 2 ? "invert" : ""}`}>
           {step.title}
         </h3>
