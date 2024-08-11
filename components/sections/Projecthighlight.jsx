@@ -5,7 +5,11 @@ import Image from 'next/image';
 import application1_2 from '../../public/assets/application1.1.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-
+import project1 from '../../public/assets/project1.jpg'
+import project2 from '../../public/assets/picture2.png'
+import project3 from '../../public/assets/picture3.png'
+import project4 from '../../public/assets/project4.png'
+import project5 from '../../public/assets/picture5.png'
 // Import Swiper styles
 import 'swiper/css';
 
@@ -22,7 +26,7 @@ const projects = [
       { text: "Payment Security", color: "cyan" }
     ],
     growth: ["Customer Support", "User Engagement"],
-    image: application1_2
+    image: project1
   },
   {
     name: "Happy Hour Finder App",
@@ -34,7 +38,7 @@ const projects = [
       { text: "Tagging System", color: "green" }
     ],
     growth: ["Trusted Customers", "Popularity of Platform", "Daily Life Usage Increased"],
-    image: application1_2
+    image: project2
   },
   {
     name: "Health and Fitness Meditation App",
@@ -46,7 +50,7 @@ const projects = [
       { text: "Practice Tools", color: "purple" }
     ],
     growth: ["Over 10k User Engagement and Retention"],
-    image: application1_2
+    image: project3
   },
   {
     name: "Salon and Spa Appointment Booking SaaS",
@@ -58,7 +62,7 @@ const projects = [
       { text: "Membership System", color: "purple" }
     ],
     growth: ["Preferred by Users"],
-    image: application1_2
+    image: project4
   },
   {
     name: "Educational Tutor Booking App",
@@ -70,7 +74,7 @@ const projects = [
       { text: "Session Tracking", color: "purple" }
     ],
     growth: ["60k+ Downloads and Daily Adaptation"],
-    image: application1_2
+    image: project5
   }
 ];
 
@@ -192,7 +196,7 @@ function Projecthighlight() {
         <div className="flex  md:flex-col mt-6 mb-6">
           {/* Image and tags section */}
           <div className="w-full flex flex-col md:flex-row md:justify-evenly">
-  <div className="md:w-2/3 bg-gray-100 h-48 flex items-center justify-center text-4xl font-bold mb-4 md:mb-0">
+  <div className="md:w-2/3 bg-gray-100 h-48 w-full overflow-hidden flex items-center justify-center text-4xl font-bold mb-4 md:mb-0">
     <Image src={selectedProject.image} alt={selectedProject.name}/>
   </div>
   {/* Colored tags */}
@@ -227,7 +231,7 @@ function Projecthighlight() {
               <path d="M7 13L10 16L17 9" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M12 7V17M7 12L17 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <span className="font-semibold">Green Growth logo</span>
+            <span className="font-semibold">Growth </span>
           </div>
           <ul className="list-disc pl-8 text-sm">
           {selectedProject.growth.map((point, index) => (

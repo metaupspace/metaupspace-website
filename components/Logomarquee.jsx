@@ -21,25 +21,25 @@ export default Logomarquee
 
 const reviews = [
   {
-    name: "Jack",
+    name: "CSS",
     username: "@jack",
     body: "I've never seen anything like this before. It's amazing. I love it.",
     img: css,
   },
   {
-    name: "Jill",
+    name: "Python",
     username: "@jill",
     body: "I don't know what to say. I'm speechless. This is amazing.",
     img: python,
   },
   {
-    name: "John",
+    name: "HTML5",
     username: "@john",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: html,
   },
   {
-    name: "Jane",
+    name: "Node JS",
     username: "@jane",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: nodejs,

@@ -3,6 +3,10 @@
 import React, { useEffect, useState } from 'react'
 import application1_1 from '../../public/assets/application1.1.png'
 import application1_2 from '../../public/assets/application1.1.png'
+import case1_1 from '../../public/assets/case1.png'
+import case1_2 from '../../public/assets/case1.1.png'
+import case2_1 from '../../public/assets/case2.1.png'
+import case2_2 from '../../public/assets/case2.2.png'
 
 import Image from 'next/image'
 
@@ -15,7 +19,7 @@ const projects = [
     growth: "125k+" ,
     user: '85k+ user  Engagement',
 
-    images: [application1_2, application1_2] // Update with actual image paths
+    images: [case1_1, case1_2] // Update with actual image paths
   },
   {
     name: "BlockType's Web3 Learning Platform",
@@ -24,7 +28,7 @@ const projects = [
     features: "Comprehensive Course Catalog, Interactive Learning",
     growth:  "TBD" ,
     user: 'userEnrollment: TBA', // Replace 'TBA' with actual data if available
-    images: [application1_1, application1_1] // Update with actual image paths
+    images: [case2_1, case2_2] // Update with actual image paths
   }
 ];
 
@@ -80,7 +84,7 @@ function Casestudies() {
 
       
       {/* Application 01 */}
-      <div className="bg-white p-6 ">
+      <div className="bg-white  ">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Technical Sapien's Chatbot Solution</h5>
   <p className="text-sm text-gray-700 mb-4">Technical Sapien sought a chatbot solution to enhance community engagement and streamline access to resources. MetaUpSpace developed an AIpowered chatbot, integrated into Technical Sapien's platform, aimed at providing personalized assistance and improving user interaction.
   </p>
@@ -91,16 +95,16 @@ function Casestudies() {
 
 {/* Image Grid for Application 01 */}
 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:col-span-2">
-  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center h-full'>
-    <Image src={application1_1} className='object-cover h-full w-full' />
+  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center '>
+    <Image src={case1_1} className='object-cover h-full w-full' />
   </div>
-  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center h-full'>
-    <Image src={application1_2} className='object-cover h-full w-full' />
+  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center '>
+    <Image src={case1_2} className='object-cover h-full w-full' />
   </div>
 </div>
       
       {/* Application 03 */}
-      <div className="bg-white p-6">
+      <div className="bg-white">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">BlockType's Web3 Learning Platform</h5>
         <p className="text-sm text-gray-700 mb-4">BlockType aimed to create a learning platform focused on web3 technology, empowering individuals to gain the necessary skills for the decentralized web. MetaUpSpace helped design and launch this platform, featuring diverse courses and an interactive learning environment.
         </p>
@@ -114,11 +118,11 @@ function Casestudies() {
 
       {/* Image Grid for Application 03 */}
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:col-span-2">
-  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center h-full'>
-    <Image src={application1_1} className='object-cover h-full w-full' />
+  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center '>
+    <Image src={case2_1} className='object-fit ' />
   </div>
-  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center h-full'>
-    <Image src={application1_2} className='object-cover h-full w-full' />
+  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center '>
+    <Image src={case2_2} className='object-fit ' />
   </div>
 </div>
     </div>
@@ -143,14 +147,14 @@ function Casestudies() {
       </div>
       <div className="flex flex-col md:flex-row p-4">
         <div className="md:w-1/2 pr-4">
-          <Image src={selectedProject.images[0]} alt="AR Visualization" className="w-full h-auto rounded-lg" />
+          <Image src={selectedProject.images[0]} alt="AR Visualization" className="object-cover w-full h-56  rounded-lg" />
           <div className="mt-4">
-            <p className="font-bold">Category: <span className="font-normal">{selectedProject.category}</span></p>
-            <p className="font-bold">Features: <span className="font-normal">{selectedProject.features}</span></p>
+            <p className="font-bold">Category: <span className="font-normal ">{selectedProject.category}</span></p>
+            <p className="font-bold flex ">Features: <span className="font-normal ">{selectedProject.features}</span></p>
             </div>
         </div>
         <div className="md:w-1/2 pl-4 mt-4 md:mt-0">
-          <Image src={selectedProject.images[1]} alt="Website Preview" className="w-full h-auto rounded-lg" />
+          <Image src={selectedProject.images[1]} alt="Website Preview" className="object-cover w-full h-56 rounded-lg" />
           <div className="mt-4">
             <p className="font-bold mt-2">Total Users: <span className="font-normal text-green-600">{selectedProject.user}</span></p>
             <p className="font-bold">Growth Rate: <span className="font-normal text-green-600">{selectedProject.growth}</span></p>
