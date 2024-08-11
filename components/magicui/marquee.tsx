@@ -2,6 +2,9 @@
 
 import { cn } from "@/lib/utils";
 
+import Image from "next/image";
+import application1_2 from '../../public/assets/application1.1.png'
+
 interface MarqueeProps {
   className?: string;
   reverse?: boolean;
@@ -21,7 +24,9 @@ export default function Marquee({
   repeat = 4,
   ...props
 }: MarqueeProps) {
+ 
   return (
+    <>
     <div
       {...props}
       className={cn(
@@ -48,6 +53,10 @@ export default function Marquee({
             {children}
           </div>
         ))}
+
+
     </div>
+     
+    </>
   );
 }
