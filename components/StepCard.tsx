@@ -1,12 +1,13 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const StepCard = ({
   step,
   index,
 }: {
-  step: { num: string; title: string; description: string };
+  step: { num: string; title: string; image: string; description: string };
   index: number;
 }) => {
   const opacity = 1 - index * 0.2;
@@ -26,8 +27,9 @@ const StepCard = ({
           {step.num}
         </h2>
         <img
-          src="../assets/rec.png"
-          className={`pl-0 ${isEven ? "" : "md:pl-20"}`}
+          src={step.image}
+          alt={step.title}
+          className={`${isEven ? "" : "md:ml-20"} h-3/5`}
         />
         <h3 className={`text-lg font-bold mt-5 ${index > 2 ? "invert" : ""}`}>
           {step.title}

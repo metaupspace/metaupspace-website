@@ -5,6 +5,7 @@ const steps = [
   {
     num: "Step 1",
     title: "Resume Shortlisting",
+    image: "../assets/resume-shortlist.jpeg",
     description:
       "Review and select resumes based on the job requirements and candidate qualifications to create a pool of potential candidates.",
     key: 1,
@@ -12,6 +13,7 @@ const steps = [
   {
     num: "Step 2",
     title: "Online Assessment",
+    image: "../assets/assessment.jpeg",
     description:
       "Conduct initial evaluations through online tests to gauge candidates’ technical skills and aptitude relevant to the role.",
     key: 2,
@@ -19,6 +21,7 @@ const steps = [
   {
     num: "Step 3",
     title: "Technical Round",
+    image: "../assets/technical-round.jpeg",
     description:
       "Assess candidates' technical expertise through in-depth interviews or coding challenges to ensure they meet the technical requirements of the position.",
     key: 3,
@@ -26,6 +29,7 @@ const steps = [
   {
     num: "Step 4",
     title: "HR/Behavioral Round",
+    image: "../assets/HR.jpeg",
     description:
       "Evaluate candidates’ soft skills, cultural fit, and overall suitability for the company through interviews focused on behavioral and HR aspects.",
     key: 4,
@@ -33,6 +37,7 @@ const steps = [
   {
     num: "Step 5",
     title: "On board candidates",
+    image: "../assets/onboarding.jpeg",
     description:
       "Monitor satisfaction of both the client and the placed candidate to ensure a successful match and address any issues that arise.",
     key: 5,
