@@ -28,6 +28,7 @@ function Projects() {
                 <div className="relative  flex items-center justify-center">
                   <Image src={landing} className="h-44 w-auto" />
                 </div>
+<<<<<<< HEAD
                 <h2 className="mt-6 text-center font-semibold text-gray-950 dark:text-white text-xl">
                   Landing Page
                 </h2>
@@ -35,6 +36,10 @@ function Projects() {
                   Unleash your brand&apos;s potential with MetaUpSpace:
                   Resultsdriven solutions for tech, marketing, and production.
                 </p>
+=======
+                <h2 className="mt-6 text-center font-semibold text-gray-950 dark:text-white text-xl">Landing Page</h2>
+                <p className="text-sm text-center text-gray-700 mb-4">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production.</p>
+>>>>>>> 40359ebd3f30fdef73b640a621e1fe2d269f78e5
               </div>
             </div>
 
@@ -45,6 +50,7 @@ function Projects() {
                   <Image src={crm} className="h-44 w-full" />
                 </div>
                 <div className="mt-6 text-center space-y-2">
+<<<<<<< HEAD
                   <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">
                     CRM
                   </h2>
@@ -52,6 +58,10 @@ function Projects() {
                     Unleash your brand&apos;s potential with MetaUpSpace:
                     Resultsdriven solution.
                   </p>
+=======
+                  <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">CRM</h2>
+                  <p className="dark:text-gray-300 text-gray-700">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solution.</p>
+>>>>>>> 40359ebd3f30fdef73b640a621e1fe2d269f78e5
                 </div>
               </div>
             </div>
@@ -63,6 +73,7 @@ function Projects() {
                   <Image src={mobile} className="h-44 w-full" />
                 </div>
                 <div className="mt-14 text-center relative z-10 space-y-2">
+<<<<<<< HEAD
                   <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">
                     Mobile Apps
                   </h2>
@@ -70,6 +81,10 @@ function Projects() {
                     Unleash your brand&apos;s potential with MetaUpSpace:
                     Resultsdriven solutions for.
                   </p>
+=======
+                  <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">Mobile Apps</h2>
+                  <p className="dark:text-gray-300 text-gray-700">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solutions for.</p>
+>>>>>>> 40359ebd3f30fdef73b640a621e1fe2d269f78e5
                 </div>
               </div>
             </div>
@@ -90,6 +105,7 @@ function Projects() {
                     </svg>
                   </div>
                   <div className="space-y-2">
+<<<<<<< HEAD
                     <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">
                       MVP Development
                     </h2>
@@ -98,6 +114,10 @@ function Projects() {
                       Resultsdriven solutions for tech, marketing, and
                       production : Resultsdriven solutions{" "}
                     </p>
+=======
+                    <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">MVP Development</h2>
+                    <p className="dark:text-gray-300 text-gray-700">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production : Resultsdriven solutions </p>
+>>>>>>> 40359ebd3f30fdef73b640a621e1fe2d269f78e5
                   </div>
                 </div>
                 <div className="overflow-hidden relative mt-6 sm:mt-auto h-fit -mb-[34px] -mr-[34px] sm:ml-6 py-6 p-6 border rounded-tl-lg dark:bg-white/5 dark:border-white/10">
@@ -127,6 +147,7 @@ function Projects() {
                     </svg>
                   </div>
                   <div className="space-y-2">
+<<<<<<< HEAD
                     <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">
                       E- Commerce
                     </h2>
@@ -135,6 +156,10 @@ function Projects() {
                       Resultsdriven solutions for tech, marketing, and
                       production.
                     </p>
+=======
+                    <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">E- Commerce</h2>
+                    <p className="dark:text-gray-300 text-gray-700">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production.</p>
+>>>>>>> 40359ebd3f30fdef73b640a621e1fe2d269f78e5
                   </div>
                 </div>
                 <div className="mt-6 relative sm:-mr-[--card-padding] sm:-my-8 before:absolute before:w-px before:inset-0 before:mx-auto before:bg-gray-200 dark:before:bg-gray-800">
