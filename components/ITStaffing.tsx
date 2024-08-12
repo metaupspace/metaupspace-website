@@ -61,8 +61,8 @@ const ITStaffing = () => {
             </div>
             <h3 className="text-md font-bold">The Right Fit Guaranteed</h3>
             <p className="mt-5 text-wrap text-sm text-gray-300 text-justify px-4">
-              We staff IT professionals on short-term contracts and we’ll help
-              you find the candidate fit for your hiring needs.
+              We staff IT professionals on short-term contracts and we&apos;ll
+              help you find the candidate fit for your hiring needs.
             </p>
           </div>
         </div>

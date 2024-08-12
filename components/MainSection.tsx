@@ -29,7 +29,7 @@ const MainSection = () => {
           </h1>
           <h1 className="text-5xl font-bold">Meets Impact</h1>
           <p className="mt-6 text-md">
-            Unleash your team's potential with MetaUpSpace.
+            Unleash your team&apos;s potential with MetaUpSpace.
           </p>
           <p className="text-md">
             Revolutionary solutions for tech, marketing, and production.
