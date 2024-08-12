@@ -85,8 +85,8 @@ function Casestudies() {
       
       {/* Application 01 */}
       <div className="bg-white  ">
-  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Technical Sapien's Chatbot Solution</h5>
-  <p className="text-sm text-gray-700 mb-4">Technical Sapien sought a chatbot solution to enhance community engagement and streamline access to resources. MetaUpSpace developed an AIpowered chatbot, integrated into Technical Sapien's platform, aimed at providing personalized assistance and improving user interaction.
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Technical Sapien&apos;s Chatbot Solution</h5>
+  <p className="text-sm text-gray-700 mb-4">Technical Sapien sought a chatbot solution to enhance community engagement and streamline access to resources. MetaUpSpace developed an AIpowered chatbot, integrated into Technical Sapien&apos;s platform, aimed at providing personalized assistance and improving user interaction.
   </p>
   <button onClick={()=>openModal(projects[0])} className="inline-flex w-28  items-center justify-center px-3 py-2 text-sm font-medium rounded-3xl text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
     View
@@ -105,7 +105,7 @@ function Casestudies() {
       
       {/* Application 03 */}
       <div className="bg-white">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">BlockType's Web3 Learning Platform</h5>
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">BlockType&apos;s Web3 Learning Platform</h5>
         <p className="text-sm text-gray-700 mb-4">BlockType aimed to create a learning platform focused on web3 technology, empowering individuals to gain the necessary skills for the decentralized web. MetaUpSpace helped design and launch this platform, featuring diverse courses and an interactive learning environment.
         </p>
         <button 
