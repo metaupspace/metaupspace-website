@@ -15,7 +15,7 @@ function Development() {
   return (
     <div
       id="development"
-      className="w-full  flex flex-col justify-center items-center bg-black"
+      className="development w-full  flex flex-col justify-center items-center bg-black"
     >
       <div className="w-full bg-white flex justify-center rounded-2xl">
         <div className="w-full max-w-screen-xl flex flex-col items-center rounded  py-10 gap-10 md:gap-20 bg-white px-4 md:px-6">

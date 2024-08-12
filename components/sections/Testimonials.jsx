@@ -10,7 +10,7 @@ function Testimonials() {
         Our Curated Baskets make your work easy and affordable, combining top
         talent and the right.
       </p>
-      <div className="flex  md:flex-row justify-center gap-6 px-4 md:px-0">
+      <div className="flex  md:flex-row flex-col justify-center gap-6 px-4 md:px-0">
         <div className="bg-[#f3f3f3] border border-gray-200 rounded-3xl shadow p-6 w-full md:w-1/2">
           <h4 className="text-lg font-bold text-black mb-2">
             Ashutosh Pratap Singh
