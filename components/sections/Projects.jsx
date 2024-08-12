@@ -27,7 +27,7 @@ function Projects() {
                   
                 </div>
                 <h2 className="mt-6 text-center font-semibold text-gray-950 dark:text-white text-xl">Landing Page</h2>
-                <p className="text-sm text-center text-gray-700 mb-4">Unleash your brand's potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production.</p>
+                <p className="text-sm text-center text-gray-700 mb-4">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production.</p>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ function Projects() {
                 </div>
                 <div className="mt-6 text-center space-y-2">
                   <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">CRM</h2>
-                  <p className="dark:text-gray-300 text-gray-700">Unleash your brand's potential with MetaUpSpace: Resultsdriven solution.</p>
+                  <p className="dark:text-gray-300 text-gray-700">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solution.</p>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ function Projects() {
                 </div>
                 <div className="mt-14 text-center relative z-10 space-y-2">
                   <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">Mobile Apps</h2>
-                  <p className="dark:text-gray-300 text-gray-700">Unleash your brand's potential with MetaUpSpace: Resultsdriven solutions for.</p>
+                  <p className="dark:text-gray-300 text-gray-700">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solutions for.</p>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ function Projects() {
                   </div>
                   <div className="space-y-2">
                     <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">MVP Development</h2>
-                    <p className="dark:text-gray-300 text-gray-700">Unleash your brand's potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production : Resultsdriven solutions </p>
+                    <p className="dark:text-gray-300 text-gray-700">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production : Resultsdriven solutions </p>
                   </div>
                 </div>
                 <div className="overflow-hidden relative mt-6 sm:mt-auto h-fit -mb-[34px] -mr-[34px] sm:ml-6 py-6 p-6 border rounded-tl-lg dark:bg-white/5 dark:border-white/10">
@@ -93,7 +93,7 @@ function Projects() {
                   </div>
                   <div className="space-y-2">
                     <h2 className="text-xl font-semibold text-gray-800 transition group-hover:text-purple-950 dark:text-white">E- Commerce</h2>
-                    <p className="dark:text-gray-300 text-gray-700">Unleash your brand's potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production.</p>
+                    <p className="dark:text-gray-300 text-gray-700">Unleash your brand&apos;s potential with MetaUpSpace: Resultsdriven solutions for tech, marketing, and production.</p>
                   </div>
                 </div>
                 <div className="mt-6 relative sm:-mr-[--card-padding] sm:-my-8 before:absolute before:w-px before:inset-0 before:mx-auto before:bg-gray-200 dark:before:bg-gray-800">

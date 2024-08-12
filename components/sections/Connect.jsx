@@ -9,7 +9,7 @@ function Connect() {
     <div className="flex flex-col md:flex-row justify-between items-center bg-[#f3f3f3] border border-gray-200 rounded-3xl shadow w-full md:w-full">
       <div className="flex flex-col justify-start p-8 leading-normal w-full md:w-1/2">
         <h5 className="mb-2 text-black not-italic text-start font-semibold text-2xl md:text-3xl mb-5">
-          Want a custom website tailored to your needs? Let's talk
+          Want a custom website tailored to your needs? Let&apos;s talk
         </h5>
         <p className="mb-3 text-gray-700 text-start text-base md:text-lg not-italic font-medium mb-5">
           We have helped hundreds of founders with their website needs.
