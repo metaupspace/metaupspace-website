@@ -8,6 +8,8 @@ import {
   FaTwitterSquare,
   FaInstagramSquare,
 } from "react-icons/fa";
+import metaupspace from "../public/assets/METAUPSPACE.png";
+import Image from "next/image";
 
 const Header = () => {
   // const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +25,8 @@ const Header = () => {
             height={40}
             alt="MetaUpSpace Logo"
           />
-          <h1 className="text-lg font-semibold">MetaUpSpace</h1>
+          {/* <h1 className="text-lg font-semibold">MetaUpSpace</h1> */}
+          <Image src={metaupspace} alt="Company Logo " className="h-4 w-auto" />
         </div>
         <div className="md:hidden">
           <button

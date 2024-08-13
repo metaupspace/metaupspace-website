@@ -5,6 +5,8 @@ import Spline from "@splinetool/react-spline"; // Import the Spline component
 import { ReviewCard } from "./Marquee";
 import Marquee from "./magicui/marquee";
 import { reviews } from "@/lib/data";
+import Image from "next/image";
+import tagline from "../public/assets/tagline.png";
 
 const MainSection = () => {
   return (
@@ -24,10 +26,11 @@ const MainSection = () => {
       <div className="md:flex md:flex-row flex-col justify-between">
         {/* Right side: Text content */}
         <div className="w-full md:w-1/2 md:ml-10">
-          <h1 className="text-5xl font-bold">
+          <Image src={tagline} alt="tagline" className="h-auto w-30" />
+          {/* <h1 className="text-5xl font-bold">
             Where <span className="text-gray-600"> Innovation</span>
           </h1>
-          <h1 className="text-5xl font-bold">Meets Impact</h1>
+          <h1 className="text-5xl font-bold">Meets Impact</h1> */}
           <p className="mt-6 text-md">
             Unleash your team&apos;s potential with MetaUpSpace.
           </p>
