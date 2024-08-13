@@ -76,7 +76,6 @@ function Casestudies() {
             </span>
           </div>
 
-<<<<<<< HEAD
           {/* Application 01 */}
           <div className="bg-white  ">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
@@ -134,77 +133,6 @@ function Casestudies() {
             </div>
             <div className="bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center ">
               <Image src={case2_2} className="object-fit " />
-=======
-      
-      {/* Application 01 */}
-      <div className="bg-white  ">
-  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Technical Sapien&apos;s Chatbot Solution</h5>
-  <p className="text-sm text-gray-700 mb-4">Technical Sapien sought a chatbot solution to enhance community engagement and streamline access to resources. MetaUpSpace developed an AIpowered chatbot, integrated into Technical Sapien&apos;s platform, aimed at providing personalized assistance and improving user interaction.
-  </p>
-  <button onClick={()=>openModal(projects[0])} className="inline-flex w-28  items-center justify-center px-3 py-2 text-sm font-medium rounded-3xl text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-    View
-  </button>
-</div>
-
-{/* Image Grid for Application 01 */}
-<div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:col-span-2">
-  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center '>
-    <Image src={case1_1} className='object-cover h-full w-full' />
-  </div>
-  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center '>
-    <Image src={case1_2} className='object-cover h-full w-full' />
-  </div>
-</div>
-      
-      {/* Application 03 */}
-      <div className="bg-white">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">BlockType&apos;s Web3 Learning Platform</h5>
-        <p className="text-sm text-gray-700 mb-4">BlockType aimed to create a learning platform focused on web3 technology, empowering individuals to gain the necessary skills for the decentralized web. MetaUpSpace helped design and launch this platform, featuring diverse courses and an interactive learning environment.
-        </p>
-        <button 
-          onClick={()=>openModal(projects[1])}
-          className="inline-flex w-28 items-center justify-center px-3 py-2 text-sm font-medium rounded-3xl text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
-        >
-          View
-        </button>
-      </div>
-
-      {/* Image Grid for Application 03 */}
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:col-span-2">
-  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center '>
-    <Image src={case2_1} className='object-fit ' />
-  </div>
-  <div className='bg-[#f3f3f3] h-56 rounded-lg overflow-hidden flex items-center justify-center '>
-    <Image src={case2_2} className='object-fit ' />
-  </div>
-</div>
-    </div>
-  </div>
-  {isModalOpen && selectedProject && (
-  <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 overflow-y-auto">
-    <div className="relative bg-white rounded-lg w-full max-w-4xl">
-
-      <div className="flex justify-between items-center p-4 border-b">
-        <div className="flex items-center">
-          <svg className="w-8 h-8 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="10" fill="#4A90E2"/>
-            <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-          </svg>
-          <h2 className="text-xl font-bold">{selectedProject.name}</h2>
-        </div>
-        <button onClick={closeModal} className="text-gray-500 hover:text-gray-700">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
-      <div className="flex flex-col md:flex-row p-4">
-        <div className="md:w-1/2 pr-4">
-          <Image src={selectedProject.images[0]} alt="AR Visualization" className="object-cover w-full h-56  rounded-lg" />
-          <div className="mt-4">
-            <p className="font-bold">Category: <span className="font-normal ">{selectedProject.category}</span></p>
-            <p className="font-bold flex ">Features: <span className="font-normal ">{selectedProject.features}</span></p>
->>>>>>> 40359ebd3f30fdef73b640a621e1fe2d269f78e5
             </div>
           </div>
         </div>
