@@ -9,7 +9,10 @@ const ITStaffing = () => {
         <p className="text-center  text-lg font-semibold  mt-10">
           Hiring Made Easy
         </p>
-        <img src="../assets/steps.png" className="px-10 pl-20  mt-20" />
+        <img
+          src="../assets/steps.png"
+          className="hidden md:flex px-10 pl-20  mt-20"
+        />
 
         <div className="relative md:flex md:flex-row flex-col justify-between items-center mt-5 md:space-x-8 md:px-20 space-y-2">
           {/* Horizontal Line */}
