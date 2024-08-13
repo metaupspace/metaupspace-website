@@ -14,16 +14,16 @@ function Connect() {
             We have helped hundreds of founders with their website needs.
           </p>
           <div className="flex flex-col md:flex-row gap-4 md:gap-2">
-            <button className="w-full md:w-40 h-10 bg-black text-white rounded-3xl">
+            <a className="w-full md:w-40 h-10 bg-black text-center flex justify-center items-center text-white rounded-3xl"  href="https://wa.me/+918689829680" target="_blank">
               Connect
-            </button>
+            </a>
             <div className="flex h-10 rounded w-full md:w-60 items-center justify-between border border-gray-950 p-2">
               <p className="text-[#7A7A7A] text-xs md:text-sm p-0.5">
                 Contact Us
               </p>
               <div className="flex h-full border-l items-center justify-between border-l-gray-950">
                 <a
-                  href="#"
+                  href="https://wa.me/+918689829680" target="_blank"
                   className="p-2 rounded-lg transition-all duration-500 hover:border-gray-100 hover:bg-gray-100"
                 >
                   <svg

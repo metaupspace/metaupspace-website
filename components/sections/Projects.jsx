@@ -31,9 +31,8 @@ function Projects() {
                 <h2 className="mt-6 text-center font-semibold text-gray-950 dark:text-white text-xl">
                   Landing Page
                 </h2>
-                <p className="text-sm text-center text-gray-700 mb-4">
-                  Unleash your brand&apos;s potential with MetaUpSpace:
-                  Resultsdriven solutions for tech, marketing, and production.
+                <p className=" text-center text-gray-700 mb-4">
+                We specialize in delivering a wide array of high-quality services, from innovative tech solutions to expert consulting, tailored to meet your unique needs.
                 </p>
               </div>
             </div>
@@ -49,8 +48,7 @@ function Projects() {
                     CRM
                   </h2>
                   <p className="dark:text-gray-300 text-gray-700">
-                    Unleash your brand&apos;s potential with MetaUpSpace:
-                    Resultsdriven solution.
+                  We provide powerful CRM solutions that streamline your customer management processes, enhance relationships, and drive business growth through personalized experiences.
                   </p>
                 </div>
               </div>
@@ -67,8 +65,7 @@ function Projects() {
                     Mobile Apps
                   </h2>
                   <p className="dark:text-gray-300 text-gray-700">
-                    Unleash your brand&apos;s potential with MetaUpSpace:
-                    Resultsdriven solutions for.
+                  We design and develop cutting-edge mobile apps that offer seamless user experiences and innovative features, tailored to meet your business needs and engage your audience.
                   </p>
                 </div>
               </div>
@@ -94,9 +91,7 @@ function Projects() {
                       MVP Development
                     </h2>
                     <p className="dark:text-gray-300 text-gray-700">
-                      Unleash your brand&apos;s potential with MetaUpSpace:
-                      Resultsdriven solutions for tech, marketing, and
-                      production : Resultsdriven solutions{" "}
+                    We specialize in rapid MVP development, helping you bring your innovative ideas to life with a lean, functional product that attracts early adopters and validates your market potential.
                     </p>
                   </div>
                 </div>
@@ -131,9 +126,7 @@ function Projects() {
                       E- Commerce
                     </h2>
                     <p className="dark:text-gray-300 text-gray-700">
-                      Unleash your brand&apos;s potential with MetaUpSpace:
-                      Resultsdriven solutions for tech, marketing, and
-                      production.
+                    We create robust e-commerce platforms that drive sales and deliver seamless shopping experiences, tailored to your brand and optimized for conversion.
                     </p>
                   </div>
                 </div>
