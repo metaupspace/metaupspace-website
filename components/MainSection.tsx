@@ -26,7 +26,7 @@ const MainSection = () => {
       <div className="md:flex md:flex-row flex-col justify-between">
         {/* Right side: Text content */}
         <div className="w-full md:w-1/2 md:ml-10">
-          <Image src={tagline} alt="tagline" className="h-auto w-30" />
+          <Image src={tagline} alt="tagline" className="h-28 w-auto" />
           {/* <h1 className="text-5xl font-bold">
             Where <span className="text-gray-600"> Innovation</span>
           </h1>
@@ -35,7 +35,7 @@ const MainSection = () => {
             Unleash your team&apos;s potential with MetaUpSpace.
           </p>
           <p className="text-md">
-            Revolutionary solutions for tech, marketing, and production.
+            Revolutionary solutions for IT Staffing and Development.
           </p>
           <div className="mt-8 flex justify-start space-x-4">
             <button className="bg-white text-black px-6 py-2 rounded-xl">
@@ -60,8 +60,9 @@ const MainSection = () => {
           </div>
         </div>
         {/* Left side: 3D model */}
-        <div className="w-full hidden md:flex h-full md:pr-10">
-          <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" />
+        <div className="h-full hidden md:flex ">
+          {/* <Spline scene="https://prod.spline.design/y4bSMaUzxbPu1MZF/scene.splinecode" /> */}
+          <Spline scene="https://prod.spline.design/y4bSMaUzxbPu1MZF/scene.splinecode" />
         </div>
       </div>
     </section>
