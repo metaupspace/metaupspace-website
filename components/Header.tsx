@@ -59,7 +59,7 @@ const Header = () => {
       </nav>
       <div className="hidden md:flex p-2 border space-x-3 items-center rounded-xl border-gray-500">
         <p className="px-4 text-sm border-r">Contact Us</p>
-        <a href="">
+        <a href="https://wa.me/918689829680">
           <FaPhoneAlt color="#454343" />
         </a>
         <a href="https://www.linkedin.com/company/metaupspace/" target="_blank">

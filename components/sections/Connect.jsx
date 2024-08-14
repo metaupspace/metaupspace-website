@@ -14,7 +14,11 @@ function Connect() {
             We have helped hundreds of founders with their website needs.
           </p>
           <div className="flex flex-col md:flex-row gap-4 md:gap-2">
-            <a className="w-full md:w-40 h-10 bg-black text-center flex justify-center items-center text-white rounded-3xl"  href="https://wa.me/+918689829680" target="_blank">
+            <a
+              className="w-full md:w-40 h-10 bg-black text-center flex justify-center items-center text-white rounded-3xl"
+              href="https://wa.me/+918689829680"
+              target="_blank"
+            >
               Connect
             </a>
             <div className="flex h-10 rounded w-full md:w-60 items-center justify-between border border-gray-950 p-2">
@@ -23,7 +27,7 @@ function Connect() {
               </p>
               <div className="flex h-full border-l items-center justify-between border-l-gray-950">
                 <a
-                  href="https://wa.me/+918689829680" target="_blank"
+                  href="https://wa.me/918689829680"
                   className="p-2 rounded-lg transition-all duration-500 hover:border-gray-100 hover:bg-gray-100"
                 >
                   <svg
@@ -41,7 +45,7 @@ function Connect() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://instagram.com/metaupspace?igshid=MjljNjAzYmU="
                   className="p-2 rounded-lg transition-all duration-500 hover:border-gray-100 hover:bg-gray-100"
                 >
                   <svg
@@ -58,7 +62,7 @@ function Connect() {
                   </svg>
                 </a>
                 <a
-                  href="javascript:;"
+                  href="https://www.linkedin.com/company/metaupspace/"
                   class="p-2 rounded-lg transition-all duration-500 hover:border-gray-100 hover:bg-gray-100"
                 >
                   <svg
@@ -75,7 +79,7 @@ function Connect() {
                   </svg>
                 </a>
                 <a
-                  href="javascript:;"
+                  href="https://twitter.com/metaupspace"
                   class="p-2 rounded-lg transition-all duration-500 hover:border-gray-100 hover:bg-gray-100"
                 >
                   <svg
