@@ -20,7 +20,7 @@ const StepCard = ({
       transition={{ duration: 0.5, delay: index * 0.2 }}
       className={`flex items-centerjustify-${
         isEven ? "end" : "start"
-      } py-10 px-4 rounded-lg mb-8  text-white w-1/2`}
+      } py-10 px-1 md:px-4 rounded-lg mb-8  text-white w-1/2`}
     >
       <div className="w-full">
         <h2 className={`text-xl font-bold pb-5 ${index > 2 ? "invert" : ""}`}>
