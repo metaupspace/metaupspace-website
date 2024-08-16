@@ -7,6 +7,9 @@ import Marquee from "./magicui/marquee";
 import { reviews } from "@/lib/data";
 import Image from "next/image";
 import tagline from "../public/assets/tagline.png";
+import localFont from "next/font/local";
+
+const myFont = localFont({ src: "../public/fonts/naston-regular.woff" });
 
 const MainSection = () => {
   return (
@@ -26,11 +29,12 @@ const MainSection = () => {
       <div className="md:flex md:flex-row flex-col justify-between">
         {/* Right side: Text content */}
         <div className="w-full md:w-1/2 md:ml-10">
-          <Image src={tagline} alt="tagline" className="h-28 w-auto" />
-          {/* <h1 className="text-5xl font-bold">
-            Where <span className="text-gray-600"> Innovation</span>
+          <h1 className="text-5xl font-bold">
+            <span className={myFont.className}>MetaUpSpace :</span>
           </h1>
-          <h1 className="text-5xl font-bold">Meets Impact</h1> */}
+          <h1 className="text-4xl font-bold">
+            <span className={myFont.className}>Thinkpad of Innovation</span>
+          </h1>
           <p className="mt-6 text-md">
             Unleash your team&apos;s potential with MetaUpSpace.
           </p>
@@ -39,10 +43,12 @@ const MainSection = () => {
           </p>
           <div className="mt-8 flex justify-start space-x-4">
             <button className="bg-white text-black px-6 py-2 rounded-xl">
-              Learn More
+              <a href="#it-staffing">Learn More</a>
             </button>
             <button className="border-gray-500 px-6 py-2 rounded-xl border">
-              Start Now
+              <a href="https://wa.me/918689829680" target="_blank">
+                Connect with us
+              </a>
             </button>
           </div>
           <div className="relative bg-black flex h-[300px] w-full md:w-2/3 flex-col items-center justify-center overflow-hidden rounded-lg py-30">
@@ -62,7 +68,7 @@ const MainSection = () => {
         {/* Left side: 3D model */}
         <div className="h-full hidden md:flex ">
           {/* <Spline scene="https://prod.spline.design/y4bSMaUzxbPu1MZF/scene.splinecode" /> */}
-          <Spline scene="https://prod.spline.design/y4bSMaUzxbPu1MZF/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" />
         </div>
       </div>
     </section>
