@@ -67,8 +67,8 @@ const MainSection = () => {
         </div>
         {/* Left side: 3D model */}
         <div className="h-full hidden md:flex ">
-          {/* <Spline scene="https://prod.spline.design/y4bSMaUzxbPu1MZF/scene.splinecode" /> */}
-          <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/y4bSMaUzxbPu1MZF/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" /> */}
         </div>
       </div>
     </section>
