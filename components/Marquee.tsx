@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
 import { reviews } from "@/lib/data";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
@@ -11,7 +11,7 @@ const ReviewCard = ({
   name,
   body,
 }: {
-  img: string;
+  img: StaticImageData;
   name: string;
   body: string;
 }) => {
