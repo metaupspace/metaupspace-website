@@ -18,15 +18,7 @@ export default function Home() {
       </Head>
       <Header />
       <MainSection />
-      <GridPattern
-        width={15}
-        height={15}
-        x={5}
-        y={-2}
-        className={cn(
-          "[mask-image:radial-gradient(500px_circle_at_right,white,transparent)] "
-        )}
-      />
+
       <ITStaffing />
       <StaffingType />
       <MarqueeDemo />
