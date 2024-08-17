@@ -28,7 +28,7 @@ const MainSection = () => {
       />
       <div className="md:flex md:flex-row flex-col justify-between">
         {/* Right side: Text content */}
-        <div className="w-full md:w-1/2 md:ml-10 pt-10 ">
+        <div className="w-full mt-20 md:w-1/2 md:ml-10 pt-10 ">
           <h1 className="text-5xl font-bold">
             <span className={myFont.className}>MetaUpSpace :</span>
           </h1>
@@ -76,7 +76,7 @@ const MainSection = () => {
           )}
         />
 
-        <div className="h-screen hidden md:flex pb-30 mt-0 relative z-[1]">
+        <div className="h-screen w-screen hidden md:flex relative z-[1]">
           <Spline scene="https://prod.spline.design/y4bSMaUzxbPu1MZF/scene.splinecode" />
           {/* <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" /> */}
         </div>
