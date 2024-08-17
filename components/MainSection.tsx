@@ -15,7 +15,7 @@ const MainSection = () => {
   return (
     <section
       id="main-section"
-      className="relative py-20 px-5 md:pl-20 bg-black text-white"
+      className="relative py-10 px-5 md:pl-20 bg-black text-white"
     >
       <GridPattern
         width={20}
@@ -28,7 +28,7 @@ const MainSection = () => {
       />
       <div className="md:flex md:flex-row flex-col justify-between">
         {/* Right side: Text content */}
-        <div className="w-full md:w-1/2 md:ml-10">
+        <div className="w-full md:w-1/2 md:ml-10 pt-10 ">
           <h1 className="text-5xl font-bold">
             <span className={myFont.className}>MetaUpSpace :</span>
           </h1>
@@ -66,7 +66,17 @@ const MainSection = () => {
           </div>
         </div>
         {/* Left side: 3D model */}
-        <div className="h-full hidden md:flex ">
+        <GridPattern
+          width={15}
+          height={15}
+          x={5}
+          y={-2}
+          className={cn(
+            "[mask-image:radial-gradient(500px_circle_at_right,white,transparent)] "
+          )}
+        />
+
+        <div className="h-screen hidden md:flex pb-30 mt-0 relative z-[1]">
           <Spline scene="https://prod.spline.design/y4bSMaUzxbPu1MZF/scene.splinecode" />
           {/* <Spline scene="https://prod.spline.design/iu1k9Z6wjlrRef7E/scene.splinecode" /> */}
         </div>
