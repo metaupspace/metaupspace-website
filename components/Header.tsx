@@ -19,8 +19,8 @@ const Header = () => {
     <header className="bg-black text-white p-5 flex flex-col md:flex-row justify-between items-center">
       <div className="flex justify-between space-x-5">
         <div className="logo flex items-center space-x-2">
-          <img
-            src="../assets/logo.png"
+          <Image
+            src="/assets/logo.png"
             width={40}
             height={40}
             alt="MetaUpSpace Logo"

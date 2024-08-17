@@ -1,5 +1,7 @@
 import React from "react";
 
+import { AnimatedBeamMultipleOutputDemo } from "./animatedBeamDesign";
+
 function StaffingType() {
   return (
     <div
@@ -7,12 +9,13 @@ function StaffingType() {
       className="bg-black py-40 md:flex md:flex-row flex-col justify-center items-center"
     >
       {/* Image on the left */}
-      <div className="relative">
-        <img
+      <div className="w-full">
+        <AnimatedBeamMultipleOutputDemo/>
+        {/* <img
           src="../assets/staffing.png"
           alt="Staffing Types"
           className="w-full h-auto px-2"
-        />
+        /> */}
       </div>
 
       {/* Text content on the right */}

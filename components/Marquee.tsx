@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
 import { reviews } from "@/lib/data";
+import Image from "next/image";
 
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
@@ -23,7 +24,7 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row justify-center items-center gap-4">
-        <img className="h-12 mb-2" alt="" src={img} />
+        <Image className="h-12 mb-2" alt="review" src={img} />
         {/* <figcaption className="text-sm font-medium text-white">
           {name}
         </figcaption> */}

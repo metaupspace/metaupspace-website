@@ -1,5 +1,7 @@
 import { cn } from "@/lib/utils";
 import GridPattern from "./magicui/grid-pattern";
+import Image from "next/image";
+import steps from "../public/assets/steps.png"
 
 const ITStaffing = () => {
   return (
@@ -9,9 +11,10 @@ const ITStaffing = () => {
         <p className="text-center  text-lg font-semibold  mt-10">
           Hiring Made Easy
         </p>
-        <img
-          src="../assets/steps.png"
-          className="hidden md:flex px-10 pl-20  mt-20"
+        <Image
+          src={steps}
+          className="hidden md:flex px-10 pl-20 ml-40  mt-20"
+          alt="steps"
         />
 
         <div className="relative md:flex md:flex-row flex-col justify-between items-center mt-5 md:space-x-8 md:px-20 space-y-2">

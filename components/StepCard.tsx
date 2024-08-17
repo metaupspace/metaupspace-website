@@ -26,9 +26,11 @@ const StepCard = ({
         <h2 className={`text-xl font-bold pb-5 ${index > 2 ? "invert" : ""}`}>
           {step.num}
         </h2>
-        <img
+        <Image
           src={step.image}
           alt={step.title}
+          height={100}
+          width={100}
           className={`${isEven ? "" : "md:ml-20"} h-2/5 md:h-3/5`}
         />
         <h3 className={`text-lg font-bold mt-5 ${index > 2 ? "invert" : ""}`}>
