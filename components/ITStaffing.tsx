@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import GridPattern from "./magicui/grid-pattern";
 import Image from "next/image";
-import steps from "../public/assets/steps.png"
+import steps from "../public/assets/steps.png";
 
 const ITStaffing = () => {
   return (
@@ -13,7 +13,7 @@ const ITStaffing = () => {
         </p>
         <Image
           src={steps}
-          className="hidden md:flex px-10 pl-20 ml-40  mt-20"
+          className="hidden w-5/6 md:flex px-10 md:pl-20 md:ml-20  mt-20"
           alt="steps"
         />
 
