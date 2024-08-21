@@ -1,5 +1,12 @@
+"use client";
 import React from "react";
 import StepCard from "./StepCard";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import Image from "next/image";
 
 const steps = [
   {
@@ -46,10 +53,7 @@ const steps = [
 
 const ProcessFlow = () => {
   return (
-    <section
-      id="process"
-      className="py-20 pt-40 bg-gradient-to-b from-black via-black to-white text-gray-100"
-    >
+    <section id="process" className="py-20 pt-40 bg-black text-gray-100">
       <div className="container mx-auto relative">
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold">Process Flow</h1>
@@ -58,7 +62,31 @@ const ProcessFlow = () => {
           </p>
         </div>
         <div className="relative">
-          <div className="absolute inset-0 flex justify-center">
+          <VerticalTimeline
+            layout={"2-columns"}
+            animate={false}
+            lineColor={"white"}
+          >
+            {steps.map((step, index) => (
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                key={index}
+                contentStyle={{ background: "black" }}
+              >
+                <h2 className={`text-xl font-bold pb-5 `}>{step.num}</h2>
+                <Image
+                  src={step.image}
+                  alt={step.title}
+                  height={200}
+                  width={200}
+                  className=""
+                />
+                <h3 className="text-lg font-bold mt-5">{step.title}</h3>
+                <p className="mt-2 ">{step.description}</p>
+              </VerticalTimelineElement>
+            ))}
+          </VerticalTimeline>
+          {/* <div className="absolute inset-0 flex justify-center">
             <div className="w-px bg-gray-300 h-full"></div>
           </div>
           {steps.map((step, index) => (
@@ -72,7 +100,7 @@ const ProcessFlow = () => {
             >
               <StepCard step={step} index={index} />
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
