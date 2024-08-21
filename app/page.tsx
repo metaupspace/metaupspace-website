@@ -12,18 +12,20 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Head>
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" href="/logo.ico" sizes="any" />
       </Head>
-      <Header />
-      <MainSection />
+      <main>
+        <Header />
+        <MainSection />
 
-      <ITStaffing />
-      <StaffingType />
-      <MarqueeDemo />
-      <ProcessFlow />
-      <Development />
-    </main>
+        <ITStaffing />
+        <StaffingType />
+        <MarqueeDemo />
+        <ProcessFlow />
+        <Development />
+      </main>
+    </>
   );
 }
