@@ -6,11 +6,11 @@ function StaffingType() {
   return (
     <div
       id="types-staffing"
-      className="bg-black py-40 md:flex md:flex-row flex-col justify-center items-center"
+      className="bg-black pt-0 pb-20 md:py-40  md:flex md:flex-row flex-col justify-center items-center"
     >
       {/* Image on the left */}
       <div className="w-full">
-        <AnimatedBeamMultipleOutputDemo/>
+        <AnimatedBeamMultipleOutputDemo />
         {/* <img
           src="../assets/staffing.png"
           alt="Staffing Types"
