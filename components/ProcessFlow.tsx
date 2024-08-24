@@ -7,7 +7,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Image from "next/image";
-import TimelineIcon from "@/lib/TimelineIcon";
 
 const steps = [
   {
@@ -73,7 +72,7 @@ const ProcessFlow = () => {
                 className="vertical-timeline-element--work"
                 key={index}
                 contentStyle={{ background: "#D7D7D7" }}
-                icon={<TimelineIcon />}
+                // icon={<TimelineIcon />}
               >
                 {/* <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-[#19191A] to-transparent pointer-events-none"></div> */}
 
