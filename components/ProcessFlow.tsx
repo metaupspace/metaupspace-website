@@ -53,7 +53,7 @@ const steps = [
 
 const ProcessFlow = () => {
   return (
-    <section id="process" className=" py-40  bg-black text-white">
+    <section id="process" className=" py-40  bg-gradient-to-b from-black to-white transition-all duration-500 sm:transition-none text-white">
       <div className="container mx-auto relative">
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold">Process Flow</h1>

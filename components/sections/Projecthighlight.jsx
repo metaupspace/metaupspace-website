@@ -20,7 +20,7 @@ const projects = [
     category: "Transportation",
     description: "Developed the city's first on-demand taxi and chauffeur booking app, featuring an intuitive interface, real-time GPS tracking, and secure payment options. The project also included a robust driver management system and in-app customer support for a seamless user experience. This initiative revolutionized the local travel niche.",
     highlights: [
-      { text: "Scalable", color: "yellow" },
+      { text: "Scalable", color: 'orange' },
       { text: "Compliance", color: "purple" },
       { text: "Real-time Tracking", color: "green" },
       { text: "Payment Security", color: "cyan" }

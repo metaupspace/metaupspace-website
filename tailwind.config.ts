@@ -8,6 +8,7 @@ const config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    
       
       flowbite.content()
   ],
@@ -22,6 +23,19 @@ const config = {
     },
     extend: {
       colors: {
+        
+          orange: {
+            200: '#fed7aa',
+          },
+          purple: {
+            200: '#e9d8fd',
+          },
+          green: {
+            200: '#c6f6d5',
+          },
+          yellow: {
+            200: '#fefcbf',
+          },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -89,6 +103,13 @@ const config = {
   },
   plugins: [require("tailwindcss-animate"),    
     flowbite.plugin(),
+  ],
+  safelist: [
+    'bg-orange-200', 'text-orange-800',
+    'bg-purple-200', 'text-purple-800',
+    'bg-green-200', 'text-green-800',
+    'bg-yellow-200', 'text-yellow-800',
+    'bg-cyan-200', 'text-cyan-800'
   ],
 } satisfies Config;
 
