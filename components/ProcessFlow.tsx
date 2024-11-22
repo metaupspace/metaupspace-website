@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import StepCard from "./StepCard";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+// import StepCard from "./StepCard";
+// import {
+//   VerticalTimeline,
+//   VerticalTimelineElement,
+// } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import Image from "next/image";
-
+// import Image from "next/image";
+import ProcessFlowModified from "./ProcessFlowModified";
 const steps = [
   {
     num: "Step 1",
@@ -53,7 +53,10 @@ const steps = [
 
 const ProcessFlow = () => {
   return (
-    <section id="process" className=" py-40  bg-gradient-to-b from-black to-white transition-all duration-500 sm:transition-none text-white">
+    <section
+      id="process"
+      className=" py-40  bg-black transition-all duration-500 sm:transition-none text-white"
+    >
       <div className="container mx-auto relative">
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold">Process Flow</h1>
@@ -61,7 +64,7 @@ const ProcessFlow = () => {
             Our Curated Baskets make your work tools to speed up your projects.
           </p>
         </div>
-        <div className="relative">
+        {/* <div className="relative">
           <VerticalTimeline
             layout={"1-column-right"}
             animate={false}
@@ -71,14 +74,12 @@ const ProcessFlow = () => {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 key={index}
-                contentStyle={{ background: "#D7D7D7" }}
+                contentStyle={{ background: "#4D4D4D" }}
                 // icon={<TimelineIcon />}
               >
-                {/* <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-[#19191A] to-transparent pointer-events-none"></div> */}
-
-                <h2 className="  vertical-timeline-element-title text-xl font-bold pb-5 text-white">
+                <h1 className="vertical-timeline-element-title text-xl font-bold pb-5 text-[#D7D7D7]">
                   {step.num}
-                </h2>
+                </h1>
                 <div className="flex flex-col md:flex-row md:justify-between gap-5">
                   <Image
                     src={step.image}
@@ -88,16 +89,17 @@ const ProcessFlow = () => {
                     className=""
                   />
                   <div>
-                    <h3 className="text-lg font-bold mt-5 text-black">
+                    <h3 className="text-lg font-bold mt-5 text-white">
                       {step.title}
                     </h3>
-                    <p className="mt-2 text-black">{step.description}</p>
+                    <p className="mt-2 text-white">{step.description}</p>
                   </div>
                 </div>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
-        </div>
+        </div> */}
+        <ProcessFlowModified></ProcessFlowModified>
       </div>
       {/* <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-[#19191A] to-white pointer-events-none"></div> */}
     </section>

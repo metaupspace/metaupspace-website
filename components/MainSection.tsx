@@ -28,9 +28,9 @@ const MainSection = () => {
       />
       <div className="md:flex md:flex-row flex-col justify-between">
         {/* Right side: Text content */}
-        <div className="w-full mt-20 md:w-1/2 md:ml-10 pt-10 ">
+        <div className="w-full md:mt-20 md:w-1/2 md:ml-10 pt-4 md:pt-10 ">
           <h1 className="text-5xl font-bold">
-            <span className={myFont.className}>MetaUpSpace :</span>
+            <span className={myFont.className}>MetaUpSpace:</span>
           </h1>
           <h1 className="text-4xl font-bold">
             <span className={myFont.className}>Thinkpad of Innovation</span>
