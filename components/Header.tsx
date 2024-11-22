@@ -12,6 +12,19 @@ import metaupspace from "../public/assets/METAUPSPACE.png";
 import Image from "next/image";
 
 const Header = () => {
+  const handleScrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      // Smooth scroll to the section
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+
+      // Close mobile menu after navigation
+      setMenuOpen(false);
+    }
+  };
   // const [menuOpen, setMenuOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -44,16 +57,37 @@ const Header = () => {
       >
         <ul className="flex flex-col md:flex-row md:space-x-4">
           <li>
-            <Link href="#main-section">Home</Link>
+            {" "}
+            <button
+              onClick={() => handleScrollToSection("main-section")}
+              className="text-white hover:text-gray-300"
+            >
+              Home
+            </button>
           </li>
-          <li className="text-gray-600">
-            <Link href="#it-staffing">IT Staffing</Link>
+          <li>
+            <button
+              onClick={() => handleScrollToSection("it-staffing")}
+              className="text-gray-600 hover:text-white"
+            >
+              IT Staffing
+            </button>
           </li>
-          <li className="text-gray-600">
-            <Link href="#development">Development</Link>
+          <li>
+            <button
+              onClick={() => handleScrollToSection("development")}
+              className="text-gray-600 hover:text-white"
+            >
+              Development
+            </button>
           </li>
-          <li className="text-gray-600">
-            <Link href="#team">Team</Link>
+          <li>
+            <button
+              onClick={() => handleScrollToSection("team")}
+              className="text-gray-600 hover:text-white"
+            >
+              Team
+            </button>
           </li>
         </ul>
       </nav>
