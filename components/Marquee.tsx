@@ -24,7 +24,7 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row justify-center items-center gap-4">
-        <Image className="h-12 mb-2" alt="review" src={img} />
+        <Image className="h-12 mb-2 object-contain" alt="review" src={img} />
         {/* <figcaption className="text-sm font-medium text-white">
           {name}
         </figcaption> */}

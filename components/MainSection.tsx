@@ -5,8 +5,8 @@ import Spline from "@splinetool/react-spline"; // Import the Spline component
 import { ReviewCard } from "./Marquee";
 import Marquee from "./magicui/marquee";
 import { reviews } from "@/lib/data";
-import Image from "next/image";
-import tagline from "../public/assets/tagline.png";
+// import Image from "next/image";
+// import tagline from "../public/assets/tagline.png";
 import localFont from "next/font/local";
 
 const myFont = localFont({ src: "../public/fonts/naston-regular.woff" });
