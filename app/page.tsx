@@ -19,7 +19,6 @@ export default function Home() {
       <main>
         <Header />
         <MainSection />
-
         <ITStaffing />
         <StaffingType />
         <MarqueeDemo />
