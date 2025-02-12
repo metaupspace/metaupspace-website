@@ -29,15 +29,6 @@ function Development() {
           <Testimonials />
         </div>
       </div>
-      <footer class="w-full bg-black text-white py-2">
-        <div class="container mx-auto px-4 flex justify-start items-center">
-          <p class="text-sm w-1/2">© 2024 Your Company. All rights reserved</p>
-          <div className="flex items-center">
-            <Image src={logo} alt="Company Logo " class="h-5 w-auto" />
-            <Image src={metaupspace} alt="Company Logo " class="h-4 w-auto" />
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
